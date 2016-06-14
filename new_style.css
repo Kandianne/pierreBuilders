@@ -1,0 +1,321 @@
+﻿/*=== MAIN STYLES ===*/
+
+body { 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: .9em; color: #fff;
+	background-image:url(graphics/woodback.jpg);
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.maincontent {
+	background-color: #06063b;
+	margin:0 auto 0 auto;
+	width:970px;
+	height:100%;
+	border-bottom-right-radius: 70% 10%;
+	border-bottom-left-radius: 70% 10%;
+	box-shadow: 0px 13px 13px #07073b;
+}	
+h2, h5 {
+	font-variant:small-caps;
+	font-weight:lighter;
+	margin-left:auto; margin-right:auto;
+	text-align:center;
+}
+.aboutinfo {
+	margin-left: auto; margin-right: auto;
+}
+#header {
+	margin:0 auto 0 auto;
+	width:100%;
+	background:url(graphics/blueblock.png) bottom repeat-x;
+}
+ #header .buttons {
+ 	float:right;
+	display:block;
+	padding:0 .3em 1.3em 0;
+	margin:1em 0 auto .7em;
+}
+#header #buttonbox {
+	margin-right:1.5em;
+}	
+#header img {
+	margin:0 auto 0 37%;
+}
+.navbar {
+	background-color: #06063b;
+	height:70px;
+	width:100%;
+	margin:0 auto 0 auto;
+	box-shadow: 0px 7px 7px #07073b;
+}
+
+.navbar table {
+	width:450px;
+	text-align:center;
+}
+
+.footer {
+	color: #06063b;
+	height: 70px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	padding-top:1em;
+}
+.maincontent ul {
+	margin:auto;
+	padding:7px;
+	display:block;
+	width:255px;
+}
+
+.maincontent #about {
+	margin:3em auto 1.5em auto;
+}
+	
+.maincontent #about p, h4 {
+	text-align:justify;
+	padding:0 2.5em 0 3em;
+	width:60em;
+}
+.maincontent #about img {
+	float:right;
+	margin:1em 3em;
+	border-radius:13px;
+}
+.maincontent #contactbutton {
+	font-size:1.3em;
+	display:block;
+	height:1.5em;
+	margin:1.5em auto 1em auto;
+	color:#06063b;
+	border-radius:3px;
+	text-align:center;
+	width:400px;
+	background: -webkit-linear-gradient(#b97600, #e6ca98, #fff, #e6ca98, #b97600);
+	background: -o-linear-gradient(#b97600, #e6ca98, #fff, #e6ca98, #b97600);
+	background: -moz-linear-gradient(#b97600, #e6ca98, #fff, #e6ca98, #b97600);
+	background: linear-gradient(#b97600, #e6ca98, #fff, #e6ca98, #b97600);
+
+}
+.maincontent .services {
+	background: -webkit-linear-gradient(left top, #06063b, #fff, #06063b) bottom;
+	background: -o-linear-gradient(bottom right, #06063b, #fff, #06063b) bottom;
+	background: -moz-linear-gradient(bottom right, #06063b, #fff, #06063b) bottom;
+	background: -ms-linear-gradient(bottom right, #06063b, #fff, #06063b) bottom;
+	background: linear-gradient(bottom right, #06063b, #fff, #06063b) bottom;
+	color:#06063b;
+	text-align:center;
+	display:block;
+	width:70%;
+}
+.maincontent .contactinfo {
+	margin:0 2em 0 23em;
+	padding-top:7em;
+	line-height:2em;
+	letter-spacing:.1em;
+}
+.maincontent #hours_operation {
+	margin:5em auto 7em 2em;
+}
+
+a:link {
+	text-decoration: none;
+	color:#fff;
+}
+a:visited {
+	color:#fff;
+}
+
+a:hover {
+	color:#d58d3b;
+}
+a.active {
+	color:#d58d3b;
+}
+
+.maincontent #mainpic a:hover {
+  opacity: 0.7;
+}	
+.maincontent #contacts a:hover {
+	font-weight:bold;
+	border: none;	
+}
+
+
+/*===END MAIN STYLES===*/
+/*===SCROLLING TEXT===*/
+.maincontent marquee {
+	margin-left:20%; margin-right:20%;
+	padding-bottom:3em;
+}
+/*===SCROLLING TEXT END===*/
+/*===GALLERY CONTROL===*/
+
+/*===END GALLERY CONTROL===*/
+/*===CONTACT FORM===*/
+
+.contact_form {
+	width:400px;
+	margin:5em 5% 0 7%;
+	background-color:#dadada;
+	border-radius: 13px;
+	color:#06063b;
+	box-shadow: 3px 3px 3px #888;
+	padding:0 1em 0 1em;
+	float:left;
+	clear:both;
+}
+.maincontent .contact_form #checkboxes {
+	width: 500px;
+	margin-left:7.7em;
+	margin-right:auto;
+	text-align:left;
+}
+.maincontent .contact_form #textboxes {
+	margin-left:auto;
+	margin-right:auto;
+	width: 80%;
+}
+.maincontent .contact_form h4 {
+	text-align:center;
+	width:370px;
+}
+.maincontent .contact_form .submit-button {
+	margin:.5em auto .5em 11em;
+}
+/*===CONTACT STYLES END===*/
+
+/* ===========================
+   ====== Media Queries ====== 
+   =========================== */
+
+@media only screen and (min-width : 300px) and (max-width : 1000px)
+{
+.body {
+		clear: both; 
+		font-size:2em;
+	}
+h2, h5 {
+	font-size:2.5em;
+}
+#header {
+	background:url(graphics/bigco_title.png) bottom center no-repeat;
+	height:7em;
+	margin:auto;
+}
+#header img {
+	display:none;
+}
+#header #buttonbox {
+	display:none;
+}
+.navbar {
+	margin-top:1em;
+	height:450px;
+	width:100%;
+	text-align:center;
+}
+.navbar table {
+	width:100%;
+	margin:auto;
+}
+.navbar td {
+	width:100%;
+	text-align:center;
+	display:block;
+	font-size:4em;
+	letter-spacing:.3em;
+	border-bottom:solid thin #b97600;
+	padding:.4em 0 .4em 0;
+}
+.maincontent {
+	width:95%;
+}
+.maincontent #about {
+	font-size:2.2em;
+	width:95%;
+	margin:0;
+}
+.maincontent #about p, h4 {
+	width:98%;
+	padding:0 1em;
+}
+.maincontent #about img {
+	float:left;
+	margin:auto 1em;
+}
+		
+.maincontent #hours_operation strong {
+		font-size: 1.7em;
+		margin-top:0;
+}	
+
+.maincontent #hours_operation td {
+		padding:.5em;
+		font-size:2em;
+}
+.maincontent #hours_operation {
+	margin:3em auto 3em auto;
+	width:45em;
+}
+.maincontent .contactinfo {
+	font-size:2.5em;
+	text-align:center;
+	margin:0 auto auto auto;
+	padding-top:1em;
+}	
+.maincontent .contactinfo strong {
+	display:block;
+}
+.maincontent #contactbutton {
+		font-size:3em;
+		width:90%;
+}
+.maincontent marquee {
+	height:100%;
+	font-size:1.75em;
+}
+.maincontent ul {
+	font-size:2em;
+	width:60%;
+	margin:auto;
+}
+.footer {
+	font-size:2em;
+}
+#sliderframe {
+	width:70%;
+}
+#sliderFrame #thumbs {
+	margin-left:auto;
+	margin-right: auto;
+}
+#sliderFrame .thumbpics {
+	width:37%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#sliderFrame .thumbpics img {
+	display:block;
+}
+.contact_form {
+	display: none;
+}
+#apDiv1 img {
+	z-index: 1;
+	margin-top:45em;
+}
+}
+/*===END MEDIA QUERIES===*/
+#apDiv1 {
+	position:absolute;
+	left:276px;
+	top:135px;
+	width:265px;
+	height:99px;
+	z-index:1;
+}
